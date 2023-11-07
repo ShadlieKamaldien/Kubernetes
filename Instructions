@@ -1,0 +1,10 @@
+The exercise on the Microsoft Learn platform involves creating an AKS cluster with a single control plane and multiple nodes using Azure CLI. The process involves 
+Logging into Azure Cloud Shell and setting it to Bash.
+Creating variables for resource group, cluster name, and location.
+Creating a resource group with az group create.
+Creating an AKS cluster with az aks create, setting the node count, VM size, and enabling HTTP application routing.
+Adding an additional node pool with az aks nodepool add.
+Linking the cluster to kubectl with az aks get-credentials.
+Verifying the cluster nodes with kubectl get nodes​1​.
+The commands issued are for setting up the cluster and its nodes, enabling add-ons like HTTP application routing for easier access, and managing the cluster with kubectl. 
+Each line in the commands sets specific parameters for the AKS cluster, such as the number of nodes, the size of the virtual machines for the nodes, and configurations for networking and add-ons
